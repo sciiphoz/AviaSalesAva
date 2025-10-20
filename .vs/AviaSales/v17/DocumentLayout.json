@@ -1,0 +1,111 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sciiphoz\\source\\repos\\AviaSales\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\sciiphoz\\source\\repos\\aviasales\\aviasales\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\sciiphoz\\source\\repos\\aviasales\\aviasales\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\sciiphoz\\source\\repos\\aviasales\\aviasales\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\sciiphoz\\source\\repos\\aviasales\\aviasales\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\sciiphoz\\source\\repos\\aviasales\\aviasales\\aviasales.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\aviasales.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\source\\repos\\AviaSales\\AviaSales\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "AviaSales\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\sciiphoz\\source\\repos\\AviaSales\\AviaSales\\MainWindow.axaml",
+              "RelativeToolTip": "AviaSales\\MainWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-20T12:06:37.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\source\\repos\\AviaSales\\AviaSales\\App.axaml.cs",
+              "RelativeDocumentMoniker": "AviaSales\\App.axaml.cs",
+              "ToolTip": "C:\\Users\\sciiphoz\\source\\repos\\AviaSales\\AviaSales\\App.axaml.cs",
+              "RelativeToolTip": "AviaSales\\App.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T12:06:34.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AviaSales",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\source\\repos\\AviaSales\\AviaSales\\AviaSales.csproj",
+              "RelativeDocumentMoniker": "AviaSales\\AviaSales.csproj",
+              "ToolTip": "C:\\Users\\sciiphoz\\source\\repos\\AviaSales\\AviaSales\\AviaSales.csproj",
+              "RelativeToolTip": "AviaSales\\AviaSales.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-20T12:06:22.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.axaml",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\source\\repos\\AviaSales\\AviaSales\\App.axaml",
+              "RelativeDocumentMoniker": "AviaSales\\App.axaml",
+              "ToolTip": "C:\\Users\\sciiphoz\\source\\repos\\AviaSales\\AviaSales\\App.axaml",
+              "RelativeToolTip": "AviaSales\\App.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-20T09:57:13.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\source\\repos\\AviaSales\\AviaSales\\MainWindow.axaml.cs",
+              "RelativeDocumentMoniker": "AviaSales\\MainWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\sciiphoz\\source\\repos\\AviaSales\\AviaSales\\MainWindow.axaml.cs",
+              "RelativeToolTip": "AviaSales\\MainWindow.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T08:47:49.202Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
