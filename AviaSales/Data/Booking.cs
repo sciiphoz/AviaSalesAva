@@ -11,11 +11,7 @@ public partial class Booking
 
     public int? IdFlight { get; set; }
 
-    public int? IdPromo { get; set; }
-
     public virtual Flight? IdFlightNavigation { get; set; }
-
-    public virtual Promo? IdPromoNavigation { get; set; }
 
     public virtual User? IdUserNavigation { get; set; }
 }

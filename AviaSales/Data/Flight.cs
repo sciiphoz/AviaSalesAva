@@ -29,5 +29,9 @@ public partial class Flight
 
     public string? Status { get; set; }
 
+    public int? IdPromo { get; set; }
+
     public virtual ICollection<Booking> Bookings { get; set; } = new List<Booking>();
+
+    public virtual Promo? IdPromoNavigation { get; set; }
 }

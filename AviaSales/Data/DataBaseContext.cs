@@ -27,7 +27,7 @@ public partial class DataBaseContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=AviaSales;Username=postgres;Password=123;");
+        => optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=AviaSales;Username=postgres;Password=123");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -39,16 +39,11 @@ public partial class DataBaseContext : DbContext
 
             entity.Property(e => e.IdBooking).HasColumnName("ID_Booking");
             entity.Property(e => e.IdFlight).HasColumnName("ID_Flight");
-            entity.Property(e => e.IdPromo).HasColumnName("ID_Promo");
             entity.Property(e => e.IdUser).HasColumnName("ID_User");
 
             entity.HasOne(d => d.IdFlightNavigation).WithMany(p => p.Bookings)
                 .HasForeignKey(d => d.IdFlight)
                 .HasConstraintName("Booking_ID_Flight_fkey");
-
-            entity.HasOne(d => d.IdPromoNavigation).WithMany(p => p.Bookings)
-                .HasForeignKey(d => d.IdPromo)
-                .HasConstraintName("Booking_ID_Promo_fkey");
 
             entity.HasOne(d => d.IdUserNavigation).WithMany(p => p.Bookings)
                 .HasForeignKey(d => d.IdUser)
@@ -69,9 +64,14 @@ public partial class DataBaseContext : DbContext
                 .HasMaxLength(50)
                 .HasDefaultValueSql("'economy'::character varying");
             entity.Property(e => e.DepartureCity).HasMaxLength(50);
+            entity.Property(e => e.IdPromo).HasColumnName("ID_Promo");
             entity.Property(e => e.Status)
                 .HasMaxLength(50)
                 .HasDefaultValueSql("'scheduled'::character varying");
+
+            entity.HasOne(d => d.IdPromoNavigation).WithMany(p => p.Flights)
+                .HasForeignKey(d => d.IdPromo)
+                .HasConstraintName("Flight_ID_Promo_fkey");
         });
 
         modelBuilder.Entity<Promo>(entity =>

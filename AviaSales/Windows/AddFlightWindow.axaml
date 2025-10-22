@@ -5,5 +5,63 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="AviaSales.AddFlightWindow"
         Title="AddFlightWindow">
-  Welcome to Avalonia!
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition></RowDefinition>
+			<RowDefinition></RowDefinition>
+			<RowDefinition></RowDefinition>
+			<RowDefinition></RowDefinition>
+		</Grid.RowDefinitions>
+
+		<StackPanel Grid.Row="1" Width="400">
+			<TextBlock>Name</TextBlock>
+			<TextBox x:Name="tbAirline"/>
+		</StackPanel>
+		<StackPanel Grid.Row="2" Width="400">
+			<TextBlock>Desc</TextBlock>
+			<TextBox x:Name="tbAircraft"/>
+		</StackPanel>
+		<StackPanel Grid.Row="1" Width="400">
+			<TextBlock>Name</TextBlock>
+			<TextBox x:Name="tbDepartureCity"/>
+		</StackPanel>
+		<StackPanel Grid.Row="2" Width="400">
+			<TextBlock>Desc</TextBlock>
+			<TextBox x:Name="tbArrivalCity"/>
+		</StackPanel>
+		<StackPanel Grid.Row="1" Width="400">
+			<TextBlock>Name</TextBlock>
+			<DatePicker x:Name="tbDepartureTime"/>
+		</StackPanel>
+		<StackPanel Grid.Row="2" Width="400">
+			<TextBlock>Desc</TextBlock>
+			<DatePicker x:Name="tbArrivalTime"/>
+		</StackPanel>
+		<StackPanel Grid.Row="1" Width="400">
+			<TextBlock>Name</TextBlock>
+			<TextBox x:Name="tbFlightTime"/>
+		</StackPanel>
+		<StackPanel Grid.Row="2" Width="400">
+			<TextBlock>Desc</TextBlock>
+			<TextBox x:Name="tbPrice"/>
+		</StackPanel>
+		<StackPanel Grid.Row="1" Width="400">
+			<TextBlock>Name</TextBlock>
+			<TextBox x:Name="tbClass"/>
+		</StackPanel>
+		<StackPanel Grid.Row="2" Width="400">
+			<TextBlock>Desc</TextBlock>
+			<TextBox x:Name="tbSeatNumber"/>
+		</StackPanel>
+		<StackPanel Grid.Row="1" Width="400">
+			<TextBlock>Name</TextBlock>
+			<TextBox x:Name="tbStatus"/>
+		</StackPanel>
+		<StackPanel Grid.Row="1" Width="400">
+			<TextBlock>Name</TextBlock>
+			<TextBox x:Name="tbPromo"/>
+		</StackPanel>
+
+		<Button x:Name="btnSave" Grid.Row="3" HorizontalAlignment="Center" Width="75" HorizontalContentAlignment="Center" Click="btnSave_Click">Save</Button>
+	</Grid>
 </Window>

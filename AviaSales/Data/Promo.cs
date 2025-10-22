@@ -9,5 +9,5 @@ public partial class Promo
 
     public int? Discount { get; set; }
 
-    public virtual ICollection<Booking> Bookings { get; set; } = new List<Booking>();
+    public virtual ICollection<Flight> Flights { get; set; } = new List<Flight>();
 }

@@ -57,6 +57,10 @@
 			<TextBlock>Name</TextBlock>
 			<TextBox x:Name="tbStatus"/>
 		</StackPanel>
+		<StackPanel Grid.Row="1" Width="400">
+			<TextBlock>Name</TextBlock>
+			<TextBox x:Name="tbPromo"/>
+		</StackPanel>
 
 		<Button x:Name="btnSave" Grid.Row="3" HorizontalAlignment="Center" Width="75" HorizontalContentAlignment="Center" Click="btnSave_Click">Save</Button>
 	</Grid>

@@ -1,6 +1,9 @@
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
+using AviaSales.Data;
+using System;
+using System.Linq;
 
 namespace AviaSales;
 
@@ -10,4 +13,84 @@ public partial class AddFlightWindow : Window
     {
         InitializeComponent();
     }
+
+    private void btnSave_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
+    {
+        var newFlight = new Flight();
+
+        if (tbAirline.Text == string.Empty || tbAircraft.Text == string.Empty ||
+        tbDepartureCity.Text == string.Empty ||
+        tbArrivalCity.Text == string.Empty ||
+        tbDepartureTime.SelectedDate == null ||
+        tbArrivalTime.SelectedDate == null ||
+        tbFlightTime.Text == string.Empty ||
+        tbPrice.Text == string.Empty ||
+        tbSeatNumber.Text == string.Empty)
+        {
+            return;
+        }
+        else
+        {
+            if (tbDepartureCity.Text == tbArrivalCity.Text)
+            {
+                return;
+            }
+            else
+            {
+                if (tbDepartureTime.SelectedDate == tbArrivalTime.SelectedDate)
+                {
+                    return;
+                }
+                else
+                {
+                    if (Convert.ToInt32(tbFlightTime.Text) <= 0)
+                    {
+                        return;
+                    }
+                    else
+                    {
+                        if (Convert.ToInt32(tbPrice.Text) <= 0)
+                        {
+                            return;
+                        }
+                        else
+                        {
+                            if (Convert.ToInt32(tbSeatNumber.Text) <= 0)
+                            {
+                                return;
+                            }
+                            else
+                            {
+                                newFlight.IdFlight = Convert.ToInt32(App.dataBaseContext.Flights.Max(x => x.IdFlight).ToString()) + 1;
+                                newFlight.Airline = tbAirline.Text;
+                                newFlight.Aircraft = tbAircraft.Text;
+                                newFlight.DepartureCity = tbDepartureCity.Text;
+                                newFlight.ArrivalCity = tbArrivalCity.Text;
+
+                                newFlight.DepartureTime = tbDepartureTime.SelectedDate.HasValue
+                                    ? DateOnly.FromDateTime(tbDepartureTime.SelectedDate.Value.DateTime)
+                                    : null;
+                                newFlight.ArrivalTime = tbArrivalTime.SelectedDate.HasValue
+                                    ? DateOnly.FromDateTime(tbArrivalTime.SelectedDate.Value.DateTime)
+                                    : null;
+
+                                newFlight.FlightTime = Convert.ToInt32(tbFlightTime.Text);
+                                newFlight.Price = Convert.ToInt32(tbPrice.Text);
+                                newFlight.Class = tbClass.Text;
+                                newFlight.SeatNumber = Convert.ToInt32(tbSeatNumber.Text);
+                                newFlight.Status = tbStatus.Text;
+                                newFlight.IdPromo = tbPromo.Text == string.Empty ? Convert.ToInt32(tbPromo.Text) : null;
+
+                                App.dataBaseContext.Flights.Update(newFlight);
+                                App.dataBaseContext.SaveChanges();
+
+                                Close();
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
+
