@@ -5342,28 +5342,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\212202\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\sciiphoz\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\212202\\Desktop\\AviaSalesAva\\AviaSales\\AviaSales.csproj",
+      "projectUniqueName": "C:\\Users\\sciiphoz\\Desktop\\AviaSales\\AviaSales\\AviaSales.csproj",
       "projectName": "AviaSales",
-      "projectPath": "C:\\Users\\212202\\Desktop\\AviaSalesAva\\AviaSales\\AviaSales.csproj",
-      "packagesPath": "C:\\Users\\212202\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\212202\\Desktop\\AviaSalesAva\\AviaSales\\obj\\",
+      "projectPath": "C:\\Users\\sciiphoz\\Desktop\\AviaSales\\AviaSales\\AviaSales.csproj",
+      "packagesPath": "C:\\Users\\sciiphoz\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sciiphoz\\Desktop\\AviaSales\\AviaSales\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\212202\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sciiphoz\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -5457,7 +5454,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
