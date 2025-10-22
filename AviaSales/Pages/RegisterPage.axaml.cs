@@ -25,7 +25,8 @@ public partial class RegisterPage : UserControl
                     IdUser = App.dataBaseContext.Users.Any() == false ? 1 : Convert.ToInt32(App.dataBaseContext.Users.Max(x => x.IdUser).ToString()) + 1,
                     Name = userName.Text,
                     Email = userEmail.Text,
-                    Password = userPassword.Text
+                    Password = userPassword.Text,
+                    IdRole = 0
                 };
 
                 CurrentUser.currentUser = newUser;

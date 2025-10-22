@@ -23,7 +23,6 @@ public partial class AddFlightWindow : Window
         tbArrivalCity.Text == string.Empty ||
         tbDepartureTime.SelectedDate == null ||
         tbArrivalTime.SelectedDate == null ||
-        tbFlightTime.Text == string.Empty ||
         tbPrice.Text == string.Empty ||
         tbSeatNumber.Text == string.Empty)
         {
@@ -67,14 +66,10 @@ public partial class AddFlightWindow : Window
                                 newFlight.DepartureCity = tbDepartureCity.Text;
                                 newFlight.ArrivalCity = tbArrivalCity.Text;
 
-                                newFlight.DepartureTime = tbDepartureTime.SelectedDate.HasValue
-                                    ? DateOnly.FromDateTime(tbDepartureTime.SelectedDate.Value.DateTime)
-                                    : null;
-                                newFlight.ArrivalTime = tbArrivalTime.SelectedDate.HasValue
-                                    ? DateOnly.FromDateTime(tbArrivalTime.SelectedDate.Value.DateTime)
-                                    : null;
+                                newFlight.DepartureTime = DateTime.Parse(tbDepartureTime.SelectedDate.ToString());
 
-                                newFlight.FlightTime = Convert.ToInt32(tbFlightTime.Text);
+                                newFlight.ArrivalTime = DateTime.Parse(tbArrivalTime.SelectedDate.ToString());
+
                                 newFlight.Price = Convert.ToInt32(tbPrice.Text);
                                 newFlight.Class = tbClass.Text;
                                 newFlight.SeatNumber = Convert.ToInt32(tbSeatNumber.Text);

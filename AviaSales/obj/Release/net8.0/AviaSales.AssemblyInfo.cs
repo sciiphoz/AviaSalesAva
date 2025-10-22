@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AviaSales")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5502fe9f5c4ec2dda5f93703a1201aa31accb4b3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f40d40aaecbca4472527c39171f16e4783aecbde")]
 [assembly: System.Reflection.AssemblyProductAttribute("AviaSales")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AviaSales")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

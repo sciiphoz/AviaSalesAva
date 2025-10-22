@@ -2,6 +2,7 @@ using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
 using AviaSales.Data;
+using ExCSS;
 using System;
 using System.Xml.Linq;
 
@@ -31,7 +32,6 @@ public partial class EditFlightWindow : Window
         tbArrivalCity.Text = flight.ArrivalCity;
         tbDepartureTime.SelectedDate = Convert.ToDateTime(flight.DepartureTime);
         tbArrivalTime.SelectedDate = Convert.ToDateTime(flight.ArrivalTime);
-        tbFlightTime.Text = flight.FlightTime.ToString();
         tbPrice.Text = flight.Price.ToString();
         tbClass.Text = flight.Class;
         tbSeatNumber.Text = flight.SeatNumber.ToString();
@@ -59,14 +59,9 @@ public partial class EditFlightWindow : Window
             currentFlight.DepartureCity = tbDepartureCity.Text;
             currentFlight.ArrivalCity = tbArrivalCity.Text;
 
-            currentFlight.DepartureTime = tbDepartureTime.SelectedDate.HasValue
-                ? DateOnly.FromDateTime(tbDepartureTime.SelectedDate.Value.DateTime)
-                : null;
-            currentFlight.ArrivalTime = tbArrivalTime.SelectedDate.HasValue
-                ? DateOnly.FromDateTime(tbArrivalTime.SelectedDate.Value.DateTime)
-                : null;
+            currentFlight.DepartureTime = DateTime.Parse(tbDepartureTime.SelectedDate.ToString()); 
+            currentFlight.ArrivalTime = DateTime.Parse(tbArrivalTime.SelectedDate.ToString());
 
-            currentFlight.FlightTime = Convert.ToInt32(tbFlightTime.Text);
             currentFlight.Price = Convert.ToInt32(tbPrice.Text);
             currentFlight.Class = tbClass.Text;
             currentFlight.SeatNumber = Convert.ToInt32(tbSeatNumber.Text);

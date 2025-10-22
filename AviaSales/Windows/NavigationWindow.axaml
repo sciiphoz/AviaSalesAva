@@ -5,5 +5,23 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="AviaSales.NavigationWindow"
         Title="NavigationWindow">
+    <Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="1*"></RowDefinition>
+			<RowDefinition Height="5*"></RowDefinition>
+		</Grid.RowDefinitions>
 
+		<StackPanel Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" Orientation="Horizontal">
+			<Button x:Name="btnBooking" Width="90" Height="35" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="0 0 25 0" Click="btnBooking_Click" Content="Booking"></Button>
+			<Button x:Name="btnPromo" Width="90" Height="35" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="25 0 25 0" Click="btnPromo_Click" Content="Promo"></Button>
+			<Button x:Name="btnUser" Width="90" Height="35" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="25 0 25 0" Click="btnUser_Click" Content="User"></Button>
+			<Button x:Name="btnFlight" Width="90" Height="35" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="25 0 25 0" Click="btnFlight_Click" Content="Flight"></Button>
+			<Button x:Name="btnProfile" Width="90" Height="35" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="25 0 25 0" Click="btnProfile_Click" Content="Profile"></Button>
+			<TextBlock x:Name="UserName"></TextBlock>
+		</StackPanel>
+
+		<ContentControl x:Name="MainContentControl" Grid.Row="1">
+
+		</ContentControl>
+	</Grid>
 </Window>
