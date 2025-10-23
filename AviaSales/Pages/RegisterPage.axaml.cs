@@ -26,7 +26,7 @@ public partial class RegisterPage : UserControl
                     Name = userName.Text,
                     Email = userEmail.Text,
                     Password = userPassword.Text,
-                    IdRole = 0
+                    IdRole = 1
                 };
 
                 CurrentUser.currentUser = newUser;

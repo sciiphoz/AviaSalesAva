@@ -16,7 +16,7 @@ public partial class FlightPage : UserControl
 
         //MainDataGrid.ItemsSource = App.dataBaseContext.Flights.ToList();
 
-        MainItemsControl.ItemsSource = App.dataBaseContext.Flights.ToList();
+        MainListBox.ItemsSource = App.dataBaseContext.Flights.ToList();
 
         if (CurrentUser.currentUser.IdRoleNavigation?.Title == "passenger" || CurrentUser.currentUser.IdRoleNavigation?.Title == "manager")
         {
@@ -27,6 +27,8 @@ public partial class FlightPage : UserControl
 
     private async void DataGrid_DoubleTapped(object? sender, Avalonia.Input.TappedEventArgs e)
     {
+
+
         //if (CurrentUser.currentUser.IdRoleNavigation?.Title != "admin")
         //{
         //    return;

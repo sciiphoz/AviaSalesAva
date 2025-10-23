@@ -15,50 +15,50 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AviaSales
-build_property.ProjectDir = C:\Users\212202\Desktop\AviaSalesAva\AviaSales\
+build_property.ProjectDir = C:\Users\sciiphoz\Desktop\AviaSales\AviaSales\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/212202/Desktop/AviaSalesAva/AviaSales/App.axaml]
+[C:/Users/sciiphoz/Desktop/AviaSales/AviaSales/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/212202/Desktop/AviaSalesAva/AviaSales/Pages/AuthPage.axaml]
+[C:/Users/sciiphoz/Desktop/AviaSales/AviaSales/Pages/AuthPage.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/212202/Desktop/AviaSalesAva/AviaSales/Pages/BookingPage.axaml]
+[C:/Users/sciiphoz/Desktop/AviaSales/AviaSales/Pages/BookingPage.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/212202/Desktop/AviaSalesAva/AviaSales/Pages/FlightPage.axaml]
+[C:/Users/sciiphoz/Desktop/AviaSales/AviaSales/Pages/FlightPage.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/212202/Desktop/AviaSalesAva/AviaSales/Pages/ProfilePage.axaml]
+[C:/Users/sciiphoz/Desktop/AviaSales/AviaSales/Pages/ProfilePage.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/212202/Desktop/AviaSalesAva/AviaSales/Pages/PromoPage.axaml]
+[C:/Users/sciiphoz/Desktop/AviaSales/AviaSales/Pages/PromoPage.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/212202/Desktop/AviaSalesAva/AviaSales/Pages/RegisterPage.axaml]
+[C:/Users/sciiphoz/Desktop/AviaSales/AviaSales/Pages/RegisterPage.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/212202/Desktop/AviaSalesAva/AviaSales/Pages/UserPage.axaml]
+[C:/Users/sciiphoz/Desktop/AviaSales/AviaSales/Pages/UserPage.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/212202/Desktop/AviaSalesAva/AviaSales/Windows/AddFlightWindow.axaml]
+[C:/Users/sciiphoz/Desktop/AviaSales/AviaSales/Windows/AddFlightWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/212202/Desktop/AviaSalesAva/AviaSales/Windows/AddPromoWindow.axaml]
+[C:/Users/sciiphoz/Desktop/AviaSales/AviaSales/Windows/AddPromoWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/212202/Desktop/AviaSalesAva/AviaSales/Windows/EditFlightWindow.axaml]
+[C:/Users/sciiphoz/Desktop/AviaSales/AviaSales/Windows/EditFlightWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/212202/Desktop/AviaSalesAva/AviaSales/Windows/EditPromoWindow.axaml]
+[C:/Users/sciiphoz/Desktop/AviaSales/AviaSales/Windows/EditPromoWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/212202/Desktop/AviaSalesAva/AviaSales/Windows/MainWindow.axaml]
+[C:/Users/sciiphoz/Desktop/AviaSales/AviaSales/Windows/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/212202/Desktop/AviaSalesAva/AviaSales/Windows/NavigationWindow.axaml]
+[C:/Users/sciiphoz/Desktop/AviaSales/AviaSales/Windows/NavigationWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

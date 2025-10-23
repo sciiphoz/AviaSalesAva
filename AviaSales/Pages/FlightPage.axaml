@@ -11,10 +11,8 @@
 		</Grid.RowDefinitions>
 
 		<ScrollViewer Grid.Row="0">
-			<ItemsControl x:Name="MainItemsControl">
-
-
-				<ItemsControl.ItemTemplate>
+			<ListBox x:Name="MainListBox" DoubleTapped="DataGrid_DoubleTapped">
+				<ListBox.ItemTemplate>
 					<DataTemplate>
 						<Border Width="700" Height="150" BorderBrush="#ddd" BorderThickness="2">
 							<Grid>
@@ -42,8 +40,8 @@
 							</Grid>
 						</Border>
 					</DataTemplate>
-				</ItemsControl.ItemTemplate>
-			</ItemsControl>
+				</ListBox.ItemTemplate>
+			</ListBox>
 		</ScrollViewer>
 
 
