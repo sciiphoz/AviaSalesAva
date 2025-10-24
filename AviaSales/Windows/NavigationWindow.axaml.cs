@@ -15,7 +15,14 @@ public partial class NavigationWindow : Window
 
         if (CurrentUser.currentUser.IdRole == 1)
         {
+            btnBooking.IsVisible = false;
+            btnUser.IsVisible = false;
+            btnPromo.IsVisible = false;
+        }
 
+        if (CurrentUser.currentUser.IdRole == 2)
+        {
+            btnUser.IsVisible = false;
         }
 
         UserName.Text = CurrentUser.currentUser.IdRoleNavigation?.Title;

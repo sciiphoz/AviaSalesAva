@@ -16,6 +16,11 @@ public partial class BookingPage : UserControl
         InitializeComponent();
 
         MainDataGrid.ItemsSource = App.dataBaseContext.Bookings.Include("IdFlightNavigation").Include("IdUserNavigation").ToList();
+
+        if (CurrentUser.currentUser.IdRole == 2)
+        {
+            btnDelete.IsVisible = false;
+        }
     }
 
     private async void DataGrid_DoubleTapped(object? sender, Avalonia.Input.TappedEventArgs e)

@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\AviaSales",
-    "\\AviaSales\\Pages"
+    "\\AviaSales\\Pages",
+    "\\AviaSales\\Windows"
   ],
-  "SelectedNode": "\\AviaSales\\Pages\\FlightPage.axaml.cs",
+  "SelectedNode": "\\AviaSales\\Windows\\EditFlightWindow.axaml.cs",
   "PreviewInSolutionExplorer": false
 }

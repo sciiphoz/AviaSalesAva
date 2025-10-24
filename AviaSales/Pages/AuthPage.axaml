@@ -21,6 +21,7 @@
 			<TextBox x:Name="userPassword"/>
 		</StackPanel>
 
+
 		<Button x:Name="btnSubmit" Grid.Row="3" HorizontalAlignment="Center" Width="125" HorizontalContentAlignment="Center" Click="btnSubmit_Click">Authorize</Button>
 	</Grid>
 </UserControl>

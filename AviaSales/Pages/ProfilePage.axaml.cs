@@ -14,7 +14,7 @@ public partial class ProfilePage : UserControl
     {
         InitializeComponent();
 
-        MainDataGrid.ItemsSource = App.dataBaseContext.Bookings.Include("IdFlightNavigation").Where(x => x.IdUser == CurrentUser.currentUser.IdUser).ToList();
+        RefreshData();
 
         userName.Text = CurrentUser.currentUser.Name;
         userEmail.Text = CurrentUser.currentUser.Email;
@@ -28,18 +28,47 @@ public partial class ProfilePage : UserControl
 
         if (result == MsBox.Avalonia.Enums.ButtonResult.Yes)
         {
-            var SelectedItem = MainDataGrid.SelectedItem as Booking;
+            var SelectedItem = MainListBox.SelectedItem as dynamic;
 
             if (SelectedItem == null) return;
 
-            App.dataBaseContext.Bookings.Remove(SelectedItem);
+            App.dataBaseContext.Bookings.Remove(SelectedItem.Booking);
             App.dataBaseContext.SaveChanges();
 
-            MainDataGrid.ItemsSource = App.dataBaseContext.Bookings.Include("IdFlightNavigation").Where(x => x.IdUser == CurrentUser.currentUser.IdUser).ToList();
+            RefreshData();
         }
         else
         {
             return;
         }
+    }
+
+    private void RefreshData()
+    {
+        var bookings = App.dataBaseContext.Bookings.Include("IdFlightNavigation").Include("IdFlightNavigation.IdPromoNavigation").Where(x => x.IdUser == CurrentUser.currentUser.IdUser).ToList();
+
+        var bookingsWithDiscount = bookings.Select(x => new
+        {
+            Booking = x,
+            DiscountedPrice = CalculateDiscountedPrice(x.IdFlightNavigation)
+        }).ToList();
+
+        MainListBox.ItemsSource = bookingsWithDiscount;
+    }
+
+    private int CalculateDiscountedPrice(Flight flight)
+    {
+        if (flight?.Price == null)
+            return 0;
+
+        var originalPrice = flight.Price.Value;
+
+        if (flight.IdPromoNavigation?.Discount != null)
+        {
+            var discount = flight.IdPromoNavigation.Discount.Value;
+            return originalPrice - (originalPrice * discount / 100);
+        }
+
+        return originalPrice;
     }
 }

@@ -80,7 +80,7 @@ public partial class FlightPage : UserControl
 
     private async void MainListBox_DoubleTapped(object? sender, Avalonia.Input.TappedEventArgs e)
     {
-        if (CurrentUser.currentUser.IdRole != 1)
+        if (CurrentUser.currentUser.IdRole != 3)
         {
             return;
         }
