@@ -18,11 +18,12 @@
 			<DataGrid.Columns>
 				<DataGridTextColumn Header="User" Binding="{Binding IdUserNavigation.Name}"></DataGridTextColumn>
 				<DataGridTextColumn Header="Flight" Binding="{Binding IdFlight}"></DataGridTextColumn>
+				<DataGridTextColumn Header="Departure city" Binding="{Binding IdFlightNavigation.DepartureCity}"></DataGridTextColumn>
+				<DataGridTextColumn Header="Arrival city" Binding="{Binding IdFlightNavigation.ArrivalCity}"></DataGridTextColumn>
 			</DataGrid.Columns>
 		</DataGrid>
 
 		<StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center">
-			<Button x:Name="btnAdd" Width="75" HorizontalContentAlignment="Center" Margin="0 0 25 0" Click="btnAdd_Click" Content="Add"></Button>
 			<Button x:Name="btnDelete" Width="75" HorizontalContentAlignment="Center" Margin="25 0 25 0" Click="btnDelete_Click" Content="Delete"></Button>
 		</StackPanel>
 	</Grid>

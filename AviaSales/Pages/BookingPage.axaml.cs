@@ -15,12 +15,12 @@ public partial class BookingPage : UserControl
     {
         InitializeComponent();
 
-        MainDataGrid.ItemsSource = App.dataBaseContext.Bookings.Include("User").Include("Flight").ToList();
+        MainDataGrid.ItemsSource = App.dataBaseContext.Bookings.Include("IdFlightNavigation").Include("IdUserNavigation").ToList();
     }
 
     private async void DataGrid_DoubleTapped(object? sender, Avalonia.Input.TappedEventArgs e)
     {
-        if (CurrentUser.currentUser.IdRoleNavigation.Title != "admin")
+        if (CurrentUser.currentUser.IdRole != 3)
         {
             return;
         }
@@ -40,15 +40,6 @@ public partial class BookingPage : UserControl
         }
     }
 
-    private async void btnAdd_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
-    {
-        var addPage = new AddFlightWindow();
-        var parent = this.VisualRoot as Window;
-        await addPage.ShowDialog(parent);
-
-        MainDataGrid.ItemsSource = App.dataBaseContext.Flights.ToList();
-    }
-
     private async void btnDelete_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
     {
         var box = MessageBoxManager.GetMessageBoxStandard("Предупреждение", "Вы точно хотите удалить?", MsBox.Avalonia.Enums.ButtonEnum.YesNo);
@@ -57,16 +48,14 @@ public partial class BookingPage : UserControl
 
         if (result == MsBox.Avalonia.Enums.ButtonResult.Yes)
         {
-            var SelectedItem = MainDataGrid.SelectedItem as Flight;
+            var SelectedItem = MainDataGrid.SelectedItem as Booking;
 
             if (SelectedItem == null) return;
 
-            App.dataBaseContext.Flights.Remove(SelectedItem);
+            App.dataBaseContext.Bookings.Remove(SelectedItem);
             App.dataBaseContext.SaveChanges();
 
-            MainDataGrid.Columns.Clear();
-
-            MainDataGrid.ItemsSource = App.dataBaseContext.Flights.ToList();
+            MainDataGrid.ItemsSource = App.dataBaseContext.Bookings.Include("IdFlightNavigation").Include("IdUserNavigation").ToList();
         }
         else
         {

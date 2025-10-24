@@ -11,57 +11,62 @@
 			<RowDefinition></RowDefinition>
 			<RowDefinition></RowDefinition>
 			<RowDefinition></RowDefinition>
+			<RowDefinition></RowDefinition>
+			<RowDefinition></RowDefinition>
+			<RowDefinition></RowDefinition>
 		</Grid.RowDefinitions>
 
-		<StackPanel Grid.Row="1" Width="400">
-			<TextBlock>Name</TextBlock>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition></ColumnDefinition>
+			<ColumnDefinition></ColumnDefinition>
+		</Grid.ColumnDefinitions>
+
+
+		<StackPanel Grid.Row="0" Grid.Column="0" Width="325">
+			<TextBlock>Airline</TextBlock>
 			<TextBox x:Name="tbAirline"/>
 		</StackPanel>
-		<StackPanel Grid.Row="2" Width="400">
-			<TextBlock>Desc</TextBlock>
+		<StackPanel Grid.Row="1" Grid.Column="0" Width="325">
+			<TextBlock>Aircraft</TextBlock>
 			<TextBox x:Name="tbAircraft"/>
 		</StackPanel>
-		<StackPanel Grid.Row="1" Width="400">
-			<TextBlock>Name</TextBlock>
+		<StackPanel Grid.Row="2" Grid.Column="0" Width="325">
+			<TextBlock>Departure city</TextBlock>
 			<TextBox x:Name="tbDepartureCity"/>
 		</StackPanel>
-		<StackPanel Grid.Row="2" Width="400">
-			<TextBlock>Desc</TextBlock>
+		<StackPanel Grid.Row="3" Grid.Column="0" Width="325">
+			<TextBlock>Arrival city</TextBlock>
 			<TextBox x:Name="tbArrivalCity"/>
 		</StackPanel>
-		<StackPanel Grid.Row="1" Width="400">
-			<TextBlock>Name</TextBlock>
-			<DatePicker x:Name="tbDepartureTime"/>
+		<StackPanel Grid.Row="4" Grid.Column="0" Width="325">
+			<TextBlock>Departure time</TextBlock>
+			<TextBox x:Name="tbDepartureTime"/>
 		</StackPanel>
-		<StackPanel Grid.Row="2" Width="400">
-			<TextBlock>Desc</TextBlock>
-			<DatePicker x:Name="tbArrivalTime"/>
+		<StackPanel Grid.Row="5" Grid.ColumnSpan="2" Width="325">
+			<TextBlock>Arrival time</TextBlock>
+			<TextBox x:Name="tbArrivalTime"/>
 		</StackPanel>
-		<StackPanel Grid.Row="1" Width="400">
-			<TextBlock>Name</TextBlock>
-			<TextBox x:Name="tbFlightTime"/>
-		</StackPanel>
-		<StackPanel Grid.Row="2" Width="400">
-			<TextBlock>Desc</TextBlock>
+		<StackPanel Grid.Row="0" Grid.Column="1" Width="325">
+			<TextBlock>Price</TextBlock>
 			<TextBox x:Name="tbPrice"/>
 		</StackPanel>
-		<StackPanel Grid.Row="1" Width="400">
-			<TextBlock>Name</TextBlock>
+		<StackPanel Grid.Row="1" Grid.Column="1" Width="325">
+			<TextBlock>Class</TextBlock>
 			<TextBox x:Name="tbClass"/>
 		</StackPanel>
-		<StackPanel Grid.Row="2" Width="400">
-			<TextBlock>Desc</TextBlock>
+		<StackPanel Grid.Row="2" Grid.Column="1" Width="325">
+			<TextBlock>Seat number</TextBlock>
 			<TextBox x:Name="tbSeatNumber"/>
 		</StackPanel>
-		<StackPanel Grid.Row="1" Width="400">
-			<TextBlock>Name</TextBlock>
+		<StackPanel Grid.Row="3" Grid.Column="1" Width="325">
+			<TextBlock>Status</TextBlock>
 			<TextBox x:Name="tbStatus"/>
 		</StackPanel>
-		<StackPanel Grid.Row="1" Width="400">
-			<TextBlock>Name</TextBlock>
+		<StackPanel Grid.Row="4" Grid.Column="1" Width="325">
+			<TextBlock>Promo</TextBlock>
 			<TextBox x:Name="tbPromo"/>
 		</StackPanel>
 
-		<Button x:Name="btnSave" Grid.Row="3" HorizontalAlignment="Center" Width="75" HorizontalContentAlignment="Center" Click="btnSave_Click">Save</Button>
+		<Button x:Name="btnSave" Grid.Row="6" Grid.ColumnSpan="2" HorizontalAlignment="Center" Width="75" HorizontalContentAlignment="Center" Click="btnSave_Click">Save</Button>
 	</Grid>
 </Window>

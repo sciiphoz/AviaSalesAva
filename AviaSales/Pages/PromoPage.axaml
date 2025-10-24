@@ -4,5 +4,23 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="AviaSales.PromoPage">
-  Welcome to Avalonia!
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="2*"></RowDefinition>
+			<RowDefinition Height="1*"></RowDefinition>
+		</Grid.RowDefinitions>
+
+		<DataGrid Name="MainDataGrid" IsReadOnly="True"
+				HorizontalAlignment="Center" VerticalAlignment="Center"
+				AutoGenerateColumns="True"
+				DoubleTapped="MainDataGrid_DoubleTapped"
+				Grid.Row="0"
+				GridLinesVisibility="All">
+		</DataGrid>
+
+		<StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center">
+			<Button x:Name="btnAdd" Width="75" HorizontalContentAlignment="Center" Margin="25 0 25 0" Click="btnAdd_Click" Content="Add"></Button>
+			<Button x:Name="btnDelete" Width="75" HorizontalContentAlignment="Center" Margin="25 0 25 0" Click="btnDelete_Click" Content="Delete"></Button>
+		</StackPanel>
+	</Grid>
 </UserControl>

@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\AviaSales",
+    "\\AviaSales\\Pages"
   ],
-  "SelectedNode": "\\AviaSales.sln",
+  "SelectedNode": "\\AviaSales\\Pages\\FlightPage.axaml.cs",
   "PreviewInSolutionExplorer": false
 }

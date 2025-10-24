@@ -4,5 +4,34 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="AviaSales.ProfilePage">
-  Welcome to Avalonia!
+    <Grid>
+		<Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+    
+        <StackPanel Orientation="Horizontal" Grid.Row="0">
+            <TextBlock FontSize="20" x:Name="userName"></TextBlock>
+            <TextBlock FontSize="20" Text=" | "></TextBlock>
+            <TextBlock FontSize="20" x:Name="userEmail"></TextBlock>
+        </StackPanel>
+
+		<DataGrid Name="MainDataGrid" IsReadOnly="True"
+				HorizontalAlignment="Center" VerticalAlignment="Center"
+				Grid.Row="1"
+				GridLinesVisibility="All">
+			<DataGrid.Columns>
+				<DataGridTextColumn Header="Flight" Binding="{Binding IdFlight}"></DataGridTextColumn>
+				<DataGridTextColumn Header="Departure city" Binding="{Binding IdFlightNavigation.DepartureCity}"></DataGridTextColumn>
+				<DataGridTextColumn Header="Arrival city" Binding="{Binding IdFlightNavigation.ArrivalCity}"></DataGridTextColumn>
+				<DataGridTextColumn Header="Departure time" Binding="{Binding IdFlightNavigation.DepartureTime}"></DataGridTextColumn>
+				<DataGridTextColumn Header="Arrival time" Binding="{Binding IdFlightNavigation.ArrivalTime}"></DataGridTextColumn>
+			</DataGrid.Columns>
+		</DataGrid>
+
+		<StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center">
+			<Button x:Name="btnDelete" Width="175" HorizontalContentAlignment="Center" Margin="25 0 25 0" Click="btnDelete_Click" Content="Cancel booking"></Button>
+		</StackPanel>
+    </Grid>
 </UserControl>

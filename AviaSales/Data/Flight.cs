@@ -15,23 +15,9 @@ public partial class Flight
 
     public string? ArrivalCity { get; set; }
 
-    public DateTime? DepartureTime { get; set; }
+    public DateOnly? DepartureTime { get; set; }
 
-    public DateTime? ArrivalTime { get; set; }
-
-    public string FlightTime
-    {
-        get
-        {
-            if (DepartureTime.HasValue && ArrivalTime.HasValue)
-            {
-                TimeSpan duration = ArrivalTime.Value - DepartureTime.Value;
-                return duration.ToString(@"d\.hh\:mm");
-            }
-            return "N/A";
-        }
-    }
-
+    public DateOnly? ArrivalTime { get; set; }
 
     public int? Price { get; set; }
 

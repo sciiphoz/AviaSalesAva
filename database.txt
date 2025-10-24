@@ -2,6 +2,7 @@
 -- Please log an issue at https://github.com/pgadmin-org/pgadmin4/issues/new/choose if you find any bugs, including reproduction steps.
 BEGIN;
 
+
 CREATE TABLE IF NOT EXISTS public."Booking"
 (
     "ID_Booking" serial NOT NULL,
@@ -52,23 +53,23 @@ CREATE TABLE IF NOT EXISTS public."User"
 );
 
 ALTER TABLE IF EXISTS public."Booking"
-    ADD FOREIGN KEY ("ID_User")
-    REFERENCES public."User" ("ID_User") MATCH SIMPLE
-    ON UPDATE NO ACTION
-    ON DELETE NO ACTION
-    NOT VALID;
-
-
-ALTER TABLE IF EXISTS public."Booking"
-    ADD FOREIGN KEY ("ID_Flight")
+    ADD CONSTRAINT "Booking_ID_Flight_fkey" FOREIGN KEY ("ID_Flight")
     REFERENCES public."Flight" ("ID_Flight") MATCH SIMPLE
     ON UPDATE NO ACTION
     ON DELETE NO ACTION
     NOT VALID;
 
 
+ALTER TABLE IF EXISTS public."Booking"
+    ADD CONSTRAINT "Booking_ID_User_fkey" FOREIGN KEY ("ID_User")
+    REFERENCES public."User" ("ID_User") MATCH SIMPLE
+    ON UPDATE NO ACTION
+    ON DELETE NO ACTION
+    NOT VALID;
+
+
 ALTER TABLE IF EXISTS public."Flight"
-    ADD FOREIGN KEY ("ID_Promo")
+    ADD CONSTRAINT "Flight_ID_Promo_fkey" FOREIGN KEY ("ID_Promo")
     REFERENCES public."Promo" ("ID_Promo") MATCH SIMPLE
     ON UPDATE NO ACTION
     ON DELETE NO ACTION
@@ -76,7 +77,7 @@ ALTER TABLE IF EXISTS public."Flight"
 
 
 ALTER TABLE IF EXISTS public."User"
-    ADD FOREIGN KEY ("ID_Role")
+    ADD CONSTRAINT "User_ID_Role_fkey" FOREIGN KEY ("ID_Role")
     REFERENCES public."Role" ("ID_Role") MATCH SIMPLE
     ON UPDATE NO ACTION
     ON DELETE NO ACTION
