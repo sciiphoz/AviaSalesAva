@@ -67,6 +67,6 @@
 			<TextBox x:Name="tbPromo"/>
 		</StackPanel>
 
-		<Button x:Name="btnSave" Grid.Row="6" Grid.ColumnSpan="2" HorizontalAlignment="Center" Width="75" HorizontalContentAlignment="Center" Click="btnSave_Click">Save</Button>
+		<Button Background="#0066CC" x:Name="btnSave" Grid.Row="6" Grid.ColumnSpan="2" HorizontalAlignment="Center" Width="75" HorizontalContentAlignment="Center" Click="btnSave_Click">Save</Button>
 	</Grid>
 </Window>

@@ -1,74 +1,142 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\212202\\Desktop\\AviaSalesAva\\",
+  "WorkspaceRootPath": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\212202\\desktop\\aviasalesava\\aviasales\\pages\\registerpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\sciiphoz\\desktop\\aviasalesava\\aviasales\\windows\\editflightwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\windows\\editflightwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\sciiphoz\\desktop\\aviasalesava\\aviasales\\windows\\editpromowindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\windows\\editpromowindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\sciiphoz\\desktop\\aviasalesava\\aviasales\\windows\\addflightwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\windows\\addflightwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\sciiphoz\\desktop\\aviasalesava\\aviasales\\windows\\addpromowindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\windows\\addpromowindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\sciiphoz\\desktop\\aviasalesava\\aviasales\\windows\\editbookingwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\windows\\editbookingwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\sciiphoz\\desktop\\aviasalesava\\aviasales\\windows\\editpromowindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\windows\\editpromowindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\sciiphoz\\desktop\\aviasalesava\\aviasales\\pages\\registerpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\pages\\registerpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\212202\\desktop\\aviasalesava\\aviasales\\pages\\userpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\pages\\userpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\212202\\desktop\\aviasalesava\\aviasales\\pages\\authpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\sciiphoz\\desktop\\aviasalesava\\aviasales\\pages\\authpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\pages\\authpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\212202\\desktop\\aviasalesava\\aviasales\\pages\\bookingpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\pages\\bookingpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\sciiphoz\\desktop\\aviasalesava\\aviasales\\pages\\authpage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\pages\\authpage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\212202\\desktop\\aviasalesava\\aviasales\\pages\\flightpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\pages\\flightpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\sciiphoz\\desktop\\aviasalesava\\aviasales\\windows\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\windows\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\212202\\desktop\\aviasalesava\\aviasales\\pages\\profilepage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\sciiphoz\\desktop\\aviasalesava\\aviasales\\pages\\registerpage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\pages\\registerpage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\sciiphoz\\desktop\\aviasalesava\\aviasales\\windows\\navigationwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\windows\\navigationwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\sciiphoz\\desktop\\aviasalesava\\aviasales\\pages\\flightpage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\pages\\flightpage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\sciiphoz\\desktop\\aviasalesava\\aviasales\\windows\\navigationwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\windows\\navigationwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\sciiphoz\\desktop\\aviasalesava\\aviasales\\pages\\profilepage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\pages\\profilepage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\212202\\desktop\\aviasalesava\\aviasales\\pages\\promopage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\pages\\promopage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\212202\\desktop\\aviasalesava\\aviasales\\pages\\userpage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\pages\\userpage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\212202\\desktop\\aviasalesava\\aviasales\\pages\\promopage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\pages\\promopage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\212202\\desktop\\aviasalesava\\aviasales\\data\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\data\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\212202\\desktop\\aviasalesava\\aviasales\\data\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\data\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\212202\\desktop\\aviasalesava\\aviasales\\data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\212202\\desktop\\aviasalesava\\aviasales\\data\\promo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\data\\promo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\212202\\desktop\\aviasalesava\\aviasales\\data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\212202\\desktop\\aviasalesava\\aviasales\\pages\\profilepage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\sciiphoz\\desktop\\aviasalesava\\aviasales\\pages\\profilepage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\pages\\profilepage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\212202\\desktop\\aviasalesava\\aviasales\\data\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\data\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\sciiphoz\\desktop\\aviasalesava\\aviasales\\data\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\data\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\212202\\desktop\\aviasalesava\\aviasales\\data\\contextbooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\sciiphoz\\desktop\\aviasalesava\\aviasales\\data\\promo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\data\\promo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\sciiphoz\\desktop\\aviasalesava\\aviasales\\data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\sciiphoz\\desktop\\aviasalesava\\aviasales\\data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\sciiphoz\\desktop\\aviasalesava\\aviasales\\data\\contextbooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\data\\contextbooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\sciiphoz\\desktop\\aviasalesava\\aviasales\\pages\\userpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\pages\\userpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\sciiphoz\\desktop\\aviasalesava\\aviasales\\pages\\promopage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\pages\\promopage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\sciiphoz\\desktop\\aviasalesava\\aviasales\\pages\\flightpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\pages\\flightpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\sciiphoz\\desktop\\aviasalesava\\aviasales\\pages\\bookingpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\pages\\bookingpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\sciiphoz\\desktop\\aviasalesava\\aviasales\\windows\\addflightwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\windows\\addflightwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\sciiphoz\\desktop\\aviasalesava\\aviasales\\windows\\addpromowindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\windows\\addpromowindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\sciiphoz\\desktop\\aviasalesava\\aviasales\\windows\\editbookingwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\windows\\editbookingwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\sciiphoz\\desktop\\aviasalesava\\aviasales\\windows\\editflightwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\windows\\editflightwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\sciiphoz\\desktop\\aviasalesava\\aviasales\\pages\\bookingpage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\pages\\bookingpage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\sciiphoz\\desktop\\aviasalesava\\aviasales\\pages\\promopage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\pages\\promopage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\sciiphoz\\desktop\\aviasalesava\\aviasales\\pages\\userpage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\pages\\userpage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\sciiphoz\\desktop\\aviasalesava\\aviasales\\data\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\data\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|c:\\users\\sciiphoz\\desktop\\aviasalesava\\aviasales\\data\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC76E56D-6CBA-4E64-AA3E-10B64A0C7074}|AviaSales\\AviaSales.csproj|solutionrelative:aviasales\\data\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,27 +146,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RegisterPage.axaml",
-              "DocumentMoniker": "C:\\Users\\212202\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\RegisterPage.axaml",
-              "RelativeDocumentMoniker": "AviaSales\\Pages\\RegisterPage.axaml",
-              "ToolTip": "C:\\Users\\212202\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\RegisterPage.axaml",
-              "RelativeToolTip": "AviaSales\\Pages\\RegisterPage.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-24T15:55:35.296Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "AddFlightWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Windows\\AddFlightWindow.axaml.cs",
+              "RelativeDocumentMoniker": "AviaSales\\Windows\\AddFlightWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Windows\\AddFlightWindow.axaml.cs",
+              "RelativeToolTip": "AviaSales\\Windows\\AddFlightWindow.axaml.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAcwB8AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T08:57:15.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddPromoWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Windows\\AddPromoWindow.axaml.cs",
+              "RelativeDocumentMoniker": "AviaSales\\Windows\\AddPromoWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Windows\\AddPromoWindow.axaml.cs",
+              "RelativeToolTip": "AviaSales\\Windows\\AddPromoWindow.axaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwCUAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T08:51:01.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EditBookingWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Windows\\EditBookingWindow.axaml.cs",
+              "RelativeDocumentMoniker": "AviaSales\\Windows\\EditBookingWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Windows\\EditBookingWindow.axaml.cs",
+              "RelativeToolTip": "AviaSales\\Windows\\EditBookingWindow.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T08:49:24.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EditFlightWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Windows\\EditFlightWindow.axaml.cs",
+              "RelativeDocumentMoniker": "AviaSales\\Windows\\EditFlightWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Windows\\EditFlightWindow.axaml.cs",
+              "RelativeToolTip": "AviaSales\\Windows\\EditFlightWindow.axaml.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAUwDYAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T08:49:19.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EditPromoWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Windows\\EditPromoWindow.axaml.cs",
+              "RelativeDocumentMoniker": "AviaSales\\Windows\\EditPromoWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Windows\\EditPromoWindow.axaml.cs",
+              "RelativeToolTip": "AviaSales\\Windows\\EditPromoWindow.axaml.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAIwCYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T08:48:44.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NavigationWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Windows\\NavigationWindow.axaml.cs",
+              "RelativeDocumentMoniker": "AviaSales\\Windows\\NavigationWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Windows\\NavigationWindow.axaml.cs",
+              "RelativeToolTip": "AviaSales\\Windows\\NavigationWindow.axaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAMwB4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T15:56:16.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FlightPage.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\FlightPage.axaml.cs",
+              "RelativeDocumentMoniker": "AviaSales\\Pages\\FlightPage.axaml.cs",
+              "ToolTip": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\FlightPage.axaml.cs",
+              "RelativeToolTip": "AviaSales\\Pages\\FlightPage.axaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T15:58:49.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "AuthPage.axaml",
-              "DocumentMoniker": "C:\\Users\\212202\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\AuthPage.axaml",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\AuthPage.axaml",
               "RelativeDocumentMoniker": "AviaSales\\Pages\\AuthPage.axaml",
-              "ToolTip": "C:\\Users\\212202\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\AuthPage.axaml",
+              "ToolTip": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\AuthPage.axaml",
               "RelativeToolTip": "AviaSales\\Pages\\AuthPage.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-10-24T15:55:32.553Z",
@@ -106,142 +257,98 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BookingPage.axaml",
-              "DocumentMoniker": "C:\\Users\\212202\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\BookingPage.axaml",
-              "RelativeDocumentMoniker": "AviaSales\\Pages\\BookingPage.axaml",
-              "ToolTip": "C:\\Users\\212202\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\BookingPage.axaml",
-              "RelativeToolTip": "AviaSales\\Pages\\BookingPage.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-24T15:55:31.339Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PromoPage.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\212202\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\PromoPage.axaml.cs",
-              "RelativeDocumentMoniker": "AviaSales\\Pages\\PromoPage.axaml.cs",
-              "ToolTip": "C:\\Users\\212202\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\PromoPage.axaml.cs",
-              "RelativeToolTip": "AviaSales\\Pages\\PromoPage.axaml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAEQAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T15:36:06.356Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserPage.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\212202\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\UserPage.axaml.cs",
-              "RelativeDocumentMoniker": "AviaSales\\Pages\\UserPage.axaml.cs",
-              "ToolTip": "C:\\Users\\212202\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\UserPage.axaml.cs",
-              "RelativeToolTip": "AviaSales\\Pages\\UserPage.axaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T15:35:42.781Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "Role.cs",
-              "DocumentMoniker": "C:\\Users\\212202\\Desktop\\AviaSalesAva\\AviaSales\\Data\\Role.cs",
-              "RelativeDocumentMoniker": "AviaSales\\Data\\Role.cs",
-              "ToolTip": "C:\\Users\\212202\\Desktop\\AviaSalesAva\\AviaSales\\Data\\Role.cs",
-              "RelativeToolTip": "AviaSales\\Data\\Role.cs",
+              "Title": "RegisterPage.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\RegisterPage.axaml.cs",
+              "RelativeDocumentMoniker": "AviaSales\\Pages\\RegisterPage.axaml.cs",
+              "ToolTip": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\RegisterPage.axaml.cs",
+              "RelativeToolTip": "AviaSales\\Pages\\RegisterPage.axaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T15:10:35.714Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\212202\\Desktop\\AviaSalesAva\\AviaSales\\Data\\User.cs",
-              "RelativeDocumentMoniker": "AviaSales\\Data\\User.cs",
-              "ToolTip": "C:\\Users\\212202\\Desktop\\AviaSalesAva\\AviaSales\\Data\\User.cs",
-              "RelativeToolTip": "AviaSales\\Data\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T15:10:36.122Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PromoPage.axaml",
-              "DocumentMoniker": "C:\\Users\\212202\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\PromoPage.axaml",
-              "RelativeDocumentMoniker": "AviaSales\\Pages\\PromoPage.axaml",
-              "ToolTip": "C:\\Users\\212202\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\PromoPage.axaml",
-              "RelativeToolTip": "AviaSales\\Pages\\PromoPage.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-24T15:10:05.22Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserPage.axaml",
-              "DocumentMoniker": "C:\\Users\\212202\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\UserPage.axaml",
-              "RelativeDocumentMoniker": "AviaSales\\Pages\\UserPage.axaml",
-              "ToolTip": "C:\\Users\\212202\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\UserPage.axaml",
-              "RelativeToolTip": "AviaSales\\Pages\\UserPage.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-24T15:10:02.098Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Promo.cs",
-              "DocumentMoniker": "C:\\Users\\212202\\Desktop\\AviaSalesAva\\AviaSales\\Data\\Promo.cs",
-              "RelativeDocumentMoniker": "AviaSales\\Data\\Promo.cs",
-              "ToolTip": "C:\\Users\\212202\\Desktop\\AviaSalesAva\\AviaSales\\Data\\Promo.cs",
-              "RelativeToolTip": "AviaSales\\Data\\Promo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T13:42:55.957Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Flight.cs",
-              "DocumentMoniker": "C:\\Users\\212202\\Desktop\\AviaSalesAva\\AviaSales\\Data\\Flight.cs",
-              "RelativeDocumentMoniker": "AviaSales\\Data\\Flight.cs",
-              "ToolTip": "C:\\Users\\212202\\Desktop\\AviaSalesAva\\AviaSales\\Data\\Flight.cs",
-              "RelativeToolTip": "AviaSales\\Data\\Flight.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T13:42:39.149Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "DataBaseContext.cs",
-              "DocumentMoniker": "C:\\Users\\212202\\Desktop\\AviaSalesAva\\AviaSales\\Data\\DataBaseContext.cs",
-              "RelativeDocumentMoniker": "AviaSales\\Data\\DataBaseContext.cs",
-              "ToolTip": "C:\\Users\\212202\\Desktop\\AviaSalesAva\\AviaSales\\Data\\DataBaseContext.cs",
-              "RelativeToolTip": "AviaSales\\Data\\DataBaseContext.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T13:42:37.131Z",
+              "WhenOpened": "2025-10-24T15:55:34.089Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "EditPromoWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Windows\\EditPromoWindow.axaml",
+              "RelativeDocumentMoniker": "AviaSales\\Windows\\EditPromoWindow.axaml",
+              "ToolTip": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Windows\\EditPromoWindow.axaml",
+              "RelativeToolTip": "AviaSales\\Windows\\EditPromoWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-25T05:43:10.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthPage.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\AuthPage.axaml.cs",
+              "RelativeDocumentMoniker": "AviaSales\\Pages\\AuthPage.axaml.cs",
+              "ToolTip": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\AuthPage.axaml.cs",
+              "RelativeToolTip": "AviaSales\\Pages\\AuthPage.axaml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAIA1wCUAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T05:38:32.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegisterPage.axaml",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\RegisterPage.axaml",
+              "RelativeDocumentMoniker": "AviaSales\\Pages\\RegisterPage.axaml",
+              "ToolTip": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\RegisterPage.axaml",
+              "RelativeToolTip": "AviaSales\\Pages\\RegisterPage.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-24T15:55:35.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Windows\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "AviaSales\\Windows\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Windows\\MainWindow.axaml",
+              "RelativeToolTip": "AviaSales\\Windows\\MainWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-25T05:43:04.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "NavigationWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Windows\\NavigationWindow.axaml",
+              "RelativeDocumentMoniker": "AviaSales\\Windows\\NavigationWindow.axaml",
+              "ToolTip": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Windows\\NavigationWindow.axaml",
+              "RelativeToolTip": "AviaSales\\Windows\\NavigationWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-24T15:56:15.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProfilePage.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\ProfilePage.axaml.cs",
+              "RelativeDocumentMoniker": "AviaSales\\Pages\\ProfilePage.axaml.cs",
+              "ToolTip": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\ProfilePage.axaml.cs",
+              "RelativeToolTip": "AviaSales\\Pages\\ProfilePage.axaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAUwCEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T13:28:57.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "ProfilePage.axaml",
-              "DocumentMoniker": "C:\\Users\\212202\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\ProfilePage.axaml",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\ProfilePage.axaml",
               "RelativeDocumentMoniker": "AviaSales\\Pages\\ProfilePage.axaml",
-              "ToolTip": "C:\\Users\\212202\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\ProfilePage.axaml",
+              "ToolTip": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\ProfilePage.axaml",
               "RelativeToolTip": "AviaSales\\Pages\\ProfilePage.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-10-24T13:27:11.599Z",
@@ -249,23 +356,63 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FlightPage.axaml",
-              "DocumentMoniker": "C:\\Users\\212202\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\FlightPage.axaml",
-              "RelativeDocumentMoniker": "AviaSales\\Pages\\FlightPage.axaml",
-              "ToolTip": "C:\\Users\\212202\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\FlightPage.axaml",
-              "RelativeToolTip": "AviaSales\\Pages\\FlightPage.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-24T13:26:48.365Z",
+              "DocumentIndex": 16,
+              "Title": "Flight.cs",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Data\\Flight.cs",
+              "RelativeDocumentMoniker": "AviaSales\\Data\\Flight.cs",
+              "ToolTip": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Data\\Flight.cs",
+              "RelativeToolTip": "AviaSales\\Data\\Flight.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA0wB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T13:42:39.149Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
+              "Title": "Promo.cs",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Data\\Promo.cs",
+              "RelativeDocumentMoniker": "AviaSales\\Data\\Promo.cs",
+              "ToolTip": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Data\\Promo.cs",
+              "RelativeToolTip": "AviaSales\\Data\\Promo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T13:42:55.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Data\\User.cs",
+              "RelativeDocumentMoniker": "AviaSales\\Data\\User.cs",
+              "ToolTip": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Data\\User.cs",
+              "RelativeToolTip": "AviaSales\\Data\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T15:10:36.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DataBaseContext.cs",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Data\\DataBaseContext.cs",
+              "RelativeDocumentMoniker": "AviaSales\\Data\\DataBaseContext.cs",
+              "ToolTip": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Data\\DataBaseContext.cs",
+              "RelativeToolTip": "AviaSales\\Data\\DataBaseContext.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAxwBMAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T13:42:37.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "ContextBooking.cs",
-              "DocumentMoniker": "C:\\Users\\212202\\Desktop\\AviaSalesAva\\AviaSales\\Data\\ContextBooking.cs",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Data\\ContextBooking.cs",
               "RelativeDocumentMoniker": "AviaSales\\Data\\ContextBooking.cs",
-              "ToolTip": "C:\\Users\\212202\\Desktop\\AviaSalesAva\\AviaSales\\Data\\ContextBooking.cs",
+              "ToolTip": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Data\\ContextBooking.cs",
               "RelativeToolTip": "AviaSales\\Data\\ContextBooking.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -274,29 +421,160 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Booking.cs",
-              "DocumentMoniker": "C:\\Users\\212202\\Desktop\\AviaSalesAva\\AviaSales\\Data\\Booking.cs",
-              "RelativeDocumentMoniker": "AviaSales\\Data\\Booking.cs",
-              "ToolTip": "C:\\Users\\212202\\Desktop\\AviaSalesAva\\AviaSales\\Data\\Booking.cs",
-              "RelativeToolTip": "AviaSales\\Data\\Booking.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T14:34:27.746Z",
+              "DocumentIndex": 22,
+              "Title": "PromoPage.axaml",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\PromoPage.axaml",
+              "RelativeDocumentMoniker": "AviaSales\\Pages\\PromoPage.axaml",
+              "ToolTip": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\PromoPage.axaml",
+              "RelativeToolTip": "AviaSales\\Pages\\PromoPage.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-24T15:10:05.22Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ProfilePage.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\212202\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\ProfilePage.axaml.cs",
-              "RelativeDocumentMoniker": "AviaSales\\Pages\\ProfilePage.axaml.cs",
-              "ToolTip": "C:\\Users\\212202\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\ProfilePage.axaml.cs",
-              "RelativeToolTip": "AviaSales\\Pages\\ProfilePage.axaml.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAIwCoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T13:28:57.165Z",
+              "DocumentIndex": 21,
+              "Title": "UserPage.axaml",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\UserPage.axaml",
+              "RelativeDocumentMoniker": "AviaSales\\Pages\\UserPage.axaml",
+              "ToolTip": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\UserPage.axaml",
+              "RelativeToolTip": "AviaSales\\Pages\\UserPage.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-24T15:10:02.098Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "FlightPage.axaml",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\FlightPage.axaml",
+              "RelativeDocumentMoniker": "AviaSales\\Pages\\FlightPage.axaml",
+              "ToolTip": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\FlightPage.axaml",
+              "RelativeToolTip": "AviaSales\\Pages\\FlightPage.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-24T13:26:48.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "BookingPage.axaml",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\BookingPage.axaml",
+              "RelativeDocumentMoniker": "AviaSales\\Pages\\BookingPage.axaml",
+              "ToolTip": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\BookingPage.axaml",
+              "RelativeToolTip": "AviaSales\\Pages\\BookingPage.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-24T15:55:31.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AddFlightWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Windows\\AddFlightWindow.axaml",
+              "RelativeDocumentMoniker": "AviaSales\\Windows\\AddFlightWindow.axaml",
+              "ToolTip": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Windows\\AddFlightWindow.axaml",
+              "RelativeToolTip": "AviaSales\\Windows\\AddFlightWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-25T05:43:27.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AddPromoWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Windows\\AddPromoWindow.axaml",
+              "RelativeDocumentMoniker": "AviaSales\\Windows\\AddPromoWindow.axaml",
+              "ToolTip": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Windows\\AddPromoWindow.axaml",
+              "RelativeToolTip": "AviaSales\\Windows\\AddPromoWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-25T05:43:24.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "EditBookingWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Windows\\EditBookingWindow.axaml",
+              "RelativeDocumentMoniker": "AviaSales\\Windows\\EditBookingWindow.axaml",
+              "ToolTip": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Windows\\EditBookingWindow.axaml",
+              "RelativeToolTip": "AviaSales\\Windows\\EditBookingWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-25T05:43:21.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "EditFlightWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Windows\\EditFlightWindow.axaml",
+              "RelativeDocumentMoniker": "AviaSales\\Windows\\EditFlightWindow.axaml",
+              "ToolTip": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Windows\\EditFlightWindow.axaml",
+              "RelativeToolTip": "AviaSales\\Windows\\EditFlightWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-25T05:43:16.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "BookingPage.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\BookingPage.axaml.cs",
+              "RelativeDocumentMoniker": "AviaSales\\Pages\\BookingPage.axaml.cs",
+              "ToolTip": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\BookingPage.axaml.cs",
+              "RelativeToolTip": "AviaSales\\Pages\\BookingPage.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T15:59:10.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "PromoPage.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\PromoPage.axaml.cs",
+              "RelativeDocumentMoniker": "AviaSales\\Pages\\PromoPage.axaml.cs",
+              "ToolTip": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\PromoPage.axaml.cs",
+              "RelativeToolTip": "AviaSales\\Pages\\PromoPage.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T15:36:06.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UserPage.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\UserPage.axaml.cs",
+              "RelativeDocumentMoniker": "AviaSales\\Pages\\UserPage.axaml.cs",
+              "ToolTip": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Pages\\UserPage.axaml.cs",
+              "RelativeToolTip": "AviaSales\\Pages\\UserPage.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T15:35:42.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Data\\Role.cs",
+              "RelativeDocumentMoniker": "AviaSales\\Data\\Role.cs",
+              "ToolTip": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Data\\Role.cs",
+              "RelativeToolTip": "AviaSales\\Data\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T15:10:35.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Data\\Booking.cs",
+              "RelativeDocumentMoniker": "AviaSales\\Data\\Booking.cs",
+              "ToolTip": "C:\\Users\\sciiphoz\\Desktop\\AviaSalesAva\\AviaSales\\Data\\Booking.cs",
+              "RelativeToolTip": "AviaSales\\Data\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T14:34:27.746Z"
             }
           ]
         }

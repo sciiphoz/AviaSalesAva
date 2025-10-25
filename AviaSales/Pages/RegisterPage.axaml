@@ -11,26 +11,25 @@
 			<RowDefinition></RowDefinition>
 			<RowDefinition></RowDefinition>
 			<RowDefinition></RowDefinition>
-			<RowDefinition></RowDefinition>
 		</Grid.RowDefinitions>
 
-		<StackPanel Grid.Row="1" Width="400">
+		<StackPanel Grid.Row="0" Width="400" VerticalAlignment="Center" HorizontalAlignment="Center">
 			<TextBlock>Name</TextBlock>
 			<TextBox x:Name="userName"/>
 		</StackPanel>
-		<StackPanel Grid.Row="2" Width="400">
+		<StackPanel Grid.Row="1" Width="400" VerticalAlignment="Center" HorizontalAlignment="Center">
 			<TextBlock>Email</TextBlock>
 			<TextBox x:Name="userEmail"/>
 		</StackPanel>
-		<StackPanel Grid.Row="3" Width="400">
+		<StackPanel Grid.Row="2" Width="400" VerticalAlignment="Center" HorizontalAlignment="Center">
 			<TextBlock>Password</TextBlock>
 			<TextBox x:Name="userPassword"/>
 		</StackPanel>
-		<StackPanel Grid.Row="4" Width="400">
+		<StackPanel Grid.Row="3" Width="400" VerticalAlignment="Center" HorizontalAlignment="Center">
 			<TextBlock>Confirm password</TextBlock>
 			<TextBox x:Name="confirmPassword"/>
 		</StackPanel>
 
-		<Button x:Name="btnSubmit" Grid.Row="5" HorizontalAlignment="Center" Width="125" HorizontalContentAlignment="Center" Click="btnSubmit_Click">Register</Button>
+		<Button Background="#0066CC" x:Name="btnSubmit" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Center" Width="125" HorizontalContentAlignment="Center" Click="btnSubmit_Click">Register</Button>
 	</Grid>
 </UserControl>

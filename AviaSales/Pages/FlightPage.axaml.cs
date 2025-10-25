@@ -21,6 +21,11 @@ public partial class FlightPage : UserControl
             btnAdd.IsVisible = false;
             btnDelete.IsVisible = false;
         }
+
+        if (CurrentUser.currentUser.IdRole == 2 || CurrentUser.currentUser.IdRole == 3)
+        {
+            btnAddToBooking.IsVisible = false;
+        }
     }
 
     private async void btnAdd_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)

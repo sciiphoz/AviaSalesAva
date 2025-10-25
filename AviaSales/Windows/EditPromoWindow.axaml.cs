@@ -3,6 +3,7 @@ using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
 using AviaSales.Data;
 using MsBox.Avalonia;
+using System;
 
 namespace AviaSales;
 
@@ -29,18 +30,35 @@ public partial class EditPromoWindow : Window
 
     private void btnSave_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
     {
-        if (int.TryParse(tbDiscount.Text, out int discount))
+        try
         {
-            currentPromo.Discount = discount;
+            if (int.TryParse(tbDiscount.Text, out int discount))
+            {
+                if (discount > 0 && discount < 100)
+                {
+                    currentPromo.Discount = discount;
 
-            App.dataBaseContext.Update(currentPromo);
-            App.dataBaseContext.SaveChanges();
+                    App.dataBaseContext.Update(currentPromo);
+                    App.dataBaseContext.SaveChanges();
+
+                    this.Close();
+                }
+                else
+                {
+                    throw new Exception("Discount value is incorrect.");
+                }
+            }
+            else
+            {
+                throw new Exception("Type in int value.");
+            }
         }
-        else
+        catch (Exception ex)
         {
-            var box = MessageBoxManager.GetMessageBoxStandard("Error!", "Type in int value.", MsBox.Avalonia.Enums.ButtonEnum.Ok, MsBox.Avalonia.Enums.Icon.Error);
+            var box = MessageBoxManager.GetMessageBoxStandard("Error!", ex.Message, MsBox.Avalonia.Enums.ButtonEnum.Ok, MsBox.Avalonia.Enums.Icon.Error);
             var parent = this.VisualRoot as Window;
             box.ShowWindowDialogAsync(parent);
         }
+
     }
 }

@@ -6,9 +6,9 @@
              x:Class="AviaSales.ProfilePage">
     <Grid>
 		<Grid.RowDefinitions>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="4*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
         </Grid.RowDefinitions>
     
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="0">
@@ -21,7 +21,7 @@
 			<ListBox x:Name="MainListBox">
 				<ListBox.ItemTemplate>
 					<DataTemplate>
-						<Border Width="1000" Height="150" BorderThickness="2">
+						<Border Width="1000" Height="150" BorderThickness="2" >
 							<Grid>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="Auto"/>
@@ -60,7 +60,7 @@
 		</ScrollViewer>
 
 		<StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center">
-			<Button x:Name="btnDelete" Width="175" HorizontalContentAlignment="Center" Margin="25 0 25 0" Click="btnDelete_Click" Content="Cancel booking"></Button>
+			<Button Background="#0066CC" x:Name="btnDelete" Width="175" HorizontalContentAlignment="Center" Margin="25 0 25 0" Click="btnDelete_Click" Content="Cancel booking"></Button>
 		</StackPanel>
     </Grid>
 </UserControl>

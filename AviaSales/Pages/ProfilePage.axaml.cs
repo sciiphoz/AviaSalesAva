@@ -22,16 +22,16 @@ public partial class ProfilePage : UserControl
 
     private async void btnDelete_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
     {
+        var SelectedItem = MainListBox.SelectedItem as dynamic;
+
+        if (SelectedItem == null) return;
+
         var box = MessageBoxManager.GetMessageBoxStandard("Warning.", "Are you sure you want to cancel your booking?", MsBox.Avalonia.Enums.ButtonEnum.YesNo, MsBox.Avalonia.Enums.Icon.Warning);
 
         var result = await box.ShowAsync();
 
         if (result == MsBox.Avalonia.Enums.ButtonResult.Yes)
         {
-            var SelectedItem = MainListBox.SelectedItem as dynamic;
-
-            if (SelectedItem == null) return;
-
             App.dataBaseContext.Bookings.Remove(SelectedItem.Booking);
             App.dataBaseContext.SaveChanges();
 

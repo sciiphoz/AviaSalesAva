@@ -17,6 +17,6 @@
 			<TextBox x:Name="tbDiscount"/>
 		</StackPanel>
 
-		<Button x:Name="btnSave" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" HorizontalContentAlignment="Center" Click="btnSave_Click">Save</Button>
+		<Button Background="#0066CC" x:Name="btnSave" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" HorizontalContentAlignment="Center" Click="btnSave_Click">Save</Button>
     </Grid>
 </Window>

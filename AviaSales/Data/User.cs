@@ -18,7 +18,6 @@ public partial class User
 
     [Display(AutoGenerateField = false)]
     public virtual ICollection<Booking> Bookings { get; set; } = new List<Booking>();
-
     [Display(AutoGenerateField = false)]
     public virtual Role? IdRoleNavigation { get; set; }
 }

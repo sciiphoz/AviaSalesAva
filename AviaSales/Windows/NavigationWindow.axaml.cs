@@ -23,6 +23,12 @@ public partial class NavigationWindow : Window
         if (CurrentUser.currentUser.IdRole == 2)
         {
             btnUser.IsVisible = false;
+            btnProfile.IsVisible = false;
+        }
+
+        if (CurrentUser.currentUser.IdRole == 3)
+        {
+            btnProfile.IsVisible = false;
         }
 
         UserName.Text = CurrentUser.currentUser.IdRoleNavigation?.Title;
@@ -47,5 +53,12 @@ public partial class NavigationWindow : Window
     private void btnProfile_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
     {
         MainContentControl.Content = new ProfilePage();
+    }
+
+    private void btnLogout_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
+    {
+        var mainWindow = new MainWindow();
+        mainWindow.Show();
+        this.Close();
     }
 }

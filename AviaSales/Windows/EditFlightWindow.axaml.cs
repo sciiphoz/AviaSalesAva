@@ -12,7 +12,7 @@ namespace AviaSales;
 public partial class EditFlightWindow : Window
 {
     private Flight flight;
-    private Flight currentFlight; 
+    private Flight currentFlight;
     public EditFlightWindow()
     {
         InitializeComponent();
@@ -42,83 +42,86 @@ public partial class EditFlightWindow : Window
 
     private void btnSave_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
     {
-        if (tbAirline.Text == string.Empty || tbAircraft.Text == string.Empty ||
-        tbDepartureCity.Text == string.Empty ||
-        tbArrivalCity.Text == string.Empty ||
-        tbDepartureTime.Text == null ||
-        tbArrivalTime.Text == null ||
-        tbPrice.Text == string.Empty ||
-        tbSeatNumber.Text == string.Empty)
+        try
         {
-            var box = MessageBoxManager.GetMessageBoxStandard("Error!", "All fields must be filled.", MsBox.Avalonia.Enums.ButtonEnum.Ok, MsBox.Avalonia.Enums.Icon.Error);
-            var parent = this.VisualRoot as Window;
-            box.ShowWindowDialogAsync(parent);
-        }
-        else
-        {
-            if (tbDepartureCity.Text == tbArrivalCity.Text)
+            if (tbAirline.Text == string.Empty || tbAircraft.Text == string.Empty ||
+                tbDepartureCity.Text == string.Empty ||
+                tbArrivalCity.Text == string.Empty ||
+                tbDepartureTime.Text == null ||
+                tbArrivalTime.Text == null ||
+                tbPrice.Text == string.Empty ||
+                tbSeatNumber.Text == string.Empty)
             {
-                var box = MessageBoxManager.GetMessageBoxStandard("Error!", "Departure city and arrival city can't be the same.", MsBox.Avalonia.Enums.ButtonEnum.Ok, MsBox.Avalonia.Enums.Icon.Error);
-                var parent = this.VisualRoot as Window;
-                box.ShowWindowDialogAsync(parent);
+                throw new Exception("All fields must be filled.");
+
             }
             else
             {
-                if (!DateOnly.TryParse(tbDepartureTime.Text, out DateOnly departureTime) || !DateOnly.TryParse(tbArrivalTime.Text, out DateOnly arrivalTime))
+                if (tbDepartureCity.Text == tbArrivalCity.Text)
                 {
-                    var box = MessageBoxManager.GetMessageBoxStandard("Error!", "Dates have dd-mm-yyyy format.", MsBox.Avalonia.Enums.ButtonEnum.Ok, MsBox.Avalonia.Enums.Icon.Error);
-                    var parent = this.VisualRoot as Window;
-                    box.ShowWindowDialogAsync(parent);
+                    throw new Exception("Departure city and arrival city can't be the same.");
+
                 }
                 else
                 {
-                    if (departureTime == arrivalTime)
+                    if (!DateOnly.TryParse(tbDepartureTime.Text, out DateOnly departureTime) || !DateOnly.TryParse(tbArrivalTime.Text, out DateOnly arrivalTime))
                     {
-                        var box = MessageBoxManager.GetMessageBoxStandard("Error!", "Dates can't be the same.", MsBox.Avalonia.Enums.ButtonEnum.Ok, MsBox.Avalonia.Enums.Icon.Error);
-                        var parent = this.VisualRoot as Window;
-                        box.ShowWindowDialogAsync(parent);
+                        throw new Exception("Dates have dd-mm-yyyy format.");
+
                     }
                     else
                     {
-                        if (Convert.ToInt32(tbPrice.Text) <= 0 || Convert.ToInt32(tbPrice.Text) >= 500000)
+                        if (departureTime == arrivalTime)
                         {
-                            var box = MessageBoxManager.GetMessageBoxStandard("Error!", "Ticket price must be relevant.", MsBox.Avalonia.Enums.ButtonEnum.Ok, MsBox.Avalonia.Enums.Icon.Error);
-                            var parent = this.VisualRoot as Window;
-                            box.ShowWindowDialogAsync(parent);
+                            throw new Exception("Dates can't be the same.");
+
                         }
                         else
                         {
-                            if (Convert.ToInt32(tbSeatNumber.Text) <= 0 || Convert.ToInt32(tbSeatNumber.Text) >= 1000)
+                            if (Convert.ToInt32(tbPrice.Text) <= 0 || Convert.ToInt32(tbPrice.Text) >= 500000)
                             {
-                                var box = MessageBoxManager.GetMessageBoxStandard("Error!", "Seat number must be relevant.", MsBox.Avalonia.Enums.ButtonEnum.Ok, MsBox.Avalonia.Enums.Icon.Error);
-                                var parent = this.VisualRoot as Window;
-                                box.ShowWindowDialogAsync(parent);
+                                throw new Exception("Ticket price must be relevant.");
+
                             }
                             else
                             {
-                                currentFlight.Airline = tbAirline.Text;
-                                currentFlight.Aircraft = tbAircraft.Text;
-                                currentFlight.DepartureCity = tbDepartureCity.Text;
-                                currentFlight.ArrivalCity = tbArrivalCity.Text;
+                                if (Convert.ToInt32(tbSeatNumber.Text) <= 0 || Convert.ToInt32(tbSeatNumber.Text) >= 1000)
+                                {
+                                    throw new Exception("Seat number must be relevant.");
 
-                                currentFlight.DepartureTime = departureTime;
-                                currentFlight.ArrivalTime = arrivalTime;
+                                }
+                                else
+                                {
+                                    currentFlight.Airline = tbAirline.Text;
+                                    currentFlight.Aircraft = tbAircraft.Text;
+                                    currentFlight.DepartureCity = tbDepartureCity.Text;
+                                    currentFlight.ArrivalCity = tbArrivalCity.Text;
 
-                                currentFlight.Price = Convert.ToInt32(tbPrice.Text);
-                                currentFlight.Class = tbClass.Text;
-                                currentFlight.SeatNumber = Convert.ToInt32(tbSeatNumber.Text);
-                                currentFlight.Status = tbStatus.Text;
-                                currentFlight.IdPromo = tbPromo.Text == string.Empty ? null : Convert.ToInt32(tbPromo.Text);
+                                    currentFlight.DepartureTime = departureTime;
+                                    currentFlight.ArrivalTime = arrivalTime;
 
-                                App.dataBaseContext.Flights.Update(currentFlight);
-                                App.dataBaseContext.SaveChanges();
+                                    currentFlight.Price = Convert.ToInt32(tbPrice.Text);
+                                    currentFlight.Class = tbClass.Text;
+                                    currentFlight.SeatNumber = Convert.ToInt32(tbSeatNumber.Text);
+                                    currentFlight.Status = tbStatus.Text;
+                                    currentFlight.IdPromo = tbPromo.Text == string.Empty ? null : Convert.ToInt32(tbPromo.Text);
 
-                                Close();
+                                    App.dataBaseContext.Flights.Update(currentFlight);
+                                    App.dataBaseContext.SaveChanges();
+
+                                    Close();
+                                }
                             }
                         }
                     }
                 }
             }
+        }
+        catch (Exception ex)
+        {
+            var box = MessageBoxManager.GetMessageBoxStandard("Error!", ex.Message, MsBox.Avalonia.Enums.ButtonEnum.Ok, MsBox.Avalonia.Enums.Icon.Error);
+            var parent = this.VisualRoot as Window;
+            box.ShowWindowDialogAsync(parent);
         }
     }
 }

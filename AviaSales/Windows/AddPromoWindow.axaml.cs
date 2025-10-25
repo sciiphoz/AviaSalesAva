@@ -17,30 +17,35 @@ public partial class AddPromoWindow : Window
 
     private void btnSave_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
     {
-        if (int.TryParse(tbDiscount.Text, out int discount))
+        try
         {
-            if (discount > 0 && discount < 100)
+            if (int.TryParse(tbDiscount.Text, out int discount))
             {
-
-                var newPromo = new Promo()
+                if (discount > 0 && discount < 100)
                 {
-                    IdPromo = App.dataBaseContext.Promos.Any() ? Convert.ToInt32(App.dataBaseContext.Promos.Max(x => x.IdPromo).ToString()) + 1 : 1,
-                    Discount = discount
-                };
 
-                App.dataBaseContext.Promos.Add(newPromo);
-                App.dataBaseContext.SaveChanges();
+                    var newPromo = new Promo()
+                    {
+                        IdPromo = App.dataBaseContext.Promos.Any() ? Convert.ToInt32(App.dataBaseContext.Promos.Max(x => x.IdPromo).ToString()) + 1 : 1,
+                        Discount = discount
+                    };
+
+                    App.dataBaseContext.Promos.Add(newPromo);
+                    App.dataBaseContext.SaveChanges();
+                }
+                else
+                {
+                    throw new Exception("Discount value is incorrect.");
+                }
             }
             else
             {
-                var box = MessageBoxManager.GetMessageBoxStandard("Error!", "Discount value is incorrect.", MsBox.Avalonia.Enums.ButtonEnum.Ok, MsBox.Avalonia.Enums.Icon.Error);
-                var parent = this.VisualRoot as Window;
-                box.ShowWindowDialogAsync(parent);
+                throw new Exception("Type in int value.");
             }
         }
-        else
+        catch (Exception ex)
         {
-            var box = MessageBoxManager.GetMessageBoxStandard("Error!", "Type in int value.", MsBox.Avalonia.Enums.ButtonEnum.Ok, MsBox.Avalonia.Enums.Icon.Error);
+            var box = MessageBoxManager.GetMessageBoxStandard("Error!", ex.Message, MsBox.Avalonia.Enums.ButtonEnum.Ok, MsBox.Avalonia.Enums.Icon.Error);
             var parent = this.VisualRoot as Window;
             box.ShowWindowDialogAsync(parent);
         }
